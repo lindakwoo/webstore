@@ -4,11 +4,13 @@ import { BiExpand } from "react-icons/bi";
 import { theme } from "../theme";
 import store from "../redux/store";
 import { Provider } from "react-redux";
+import Header from "../components/Header";
 
 const WebStore = ({ Component, pageProps }) => {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
+        <Header />
         <Component {...pageProps} />
       </ThemeProvider>
     </Provider>

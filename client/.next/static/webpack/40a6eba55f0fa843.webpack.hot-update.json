@@ -1,0 +1,1 @@
+{"c":["pages/_app","webpack"],"r":["pages/products/[product_id]"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2Flindawoo%2Fweb-store%2Fclient%2Fsrc%2Fpages%2Fproducts%2F%5Bproduct_id%5D.jsx&page=%2Fproducts%2F%5Bproduct_id%5D!","./node_modules/next/router.js","./src/pages/products/[product_id].jsx"]}
